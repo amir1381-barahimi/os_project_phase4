@@ -1,18 +1,10 @@
 public class MainMemory {
-    private Page[] mainMemory;
+    public static Page[] mainMemory;
 
     public static int freeStorage;
 
 
 
-
-    public Page[] getMainMemory() {
-        return mainMemory;
-    }
-
-    public void setMainMemory(Page[] mainMemory) {
-        this.mainMemory = mainMemory;
-    }
 
 
     public MainMemory() {

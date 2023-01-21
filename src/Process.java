@@ -2,8 +2,7 @@ import java.util.ArrayList;
 
 public class Process {
     private String name_process;
-    private ArrayList<ProcessVariable> vars_process=new ArrayList<>();
-
+    private ArrayList<ProcessVariable> vars_process;
 
     public Process(String name_process, ArrayList<ProcessVariable> vars_process) {
         this.name_process = name_process;
